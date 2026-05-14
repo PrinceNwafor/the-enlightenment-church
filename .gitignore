@@ -1,0 +1,16 @@
+# Source/template files - not needed for published site
+Master Template/
+logo/
+Pastors photo/
+
+# Original source images with special characters
+images/IN CHRIST*
+
+# Original source videos (we only need hero-video.mp4)
+Videos/Isaiah*
+Videos/THE NEW*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

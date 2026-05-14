@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Enlightenment Church (TEC Global) — A Lagos church where the light of God's Word transforms every life. Led by Pastor Joel Austin." />
+  <meta property="og:title" content="The Enlightenment Church — TEC Global" />
+  <meta property="og:description" content="Illuminating lives with the transforming truth of God's Word. Join us in Lagos, Nigeria." />
+  <meta property="og:type" content="website" />
+  <title>The Enlightenment Church — TEC Global | Lagos, Nigeria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav nav--transparent" id="main-nav" data-transparent="true">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.jpg" alt="TEC Global Logo" class="nav__logo-img" />
+        <div>
+          <div class="nav__logo-text">The Enlightenment Church</div>
+          <div class="nav__logo-sub">TEC Global · Lagos</div>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="sermons.html" class="nav__link">Sermons</a></li>
+        <li><a href="ministries.html" class="nav__link">Ministries</a></li>
+        <li><a href="events.html" class="nav__link">Events</a></li>
+        <li><a href="find-help.html" class="nav__link nav__link--find-help">Find Help</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="give.html" class="btn btn--gold-outline btn--sm">Give</a>
+        <a href="plan-visit.html" class="btn btn--primary btn--sm">Plan a Visit</a>
+        <button class="nav__menu-btn" id="menu-btn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav__close" id="mobile-nav-close">✕</button>
+    <ul class="mobile-nav__links">
+      <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav__link">About</a></li>
+      <li><a href="sermons.html" class="mobile-nav__link">Sermons</a></li>
+      <li><a href="ministries.html" class="mobile-nav__link">Ministries</a></li>
+      <li><a href="events.html" class="mobile-nav__link">Events</a></li>
+      <li><a href="find-help.html" class="mobile-nav__link mobile-nav__link--find-help">Find Help</a></li>
+      <li><a href="plan-visit.html" class="mobile-nav__link">Plan a Visit</a></li>
+      <li><a href="give.html" class="mobile-nav__link">Give</a></li>
+      <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- =====================================================================
+         HERO — Full viewport, video background
+    ====================================================================== -->
+    <section class="hero">
+      <div class="hero__bg" style="overflow:hidden;">
+        <!-- Local MP4 video hero -->
+        <video
+          autoplay muted loop playsinline
+          style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+          poster="images/church-2.webp">
+          <source src="Videos/hero-video.mp4" type="video/mp4" />
+          <!-- Fallback image if video doesn't load -->
+          <img src="images/church-2.webp" alt="The Enlightenment Church" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
+        </video>
+      </div>
+
+      <div class="hero__content">
+        <span class="hero__label animate-fade-up">TEC Global · Lagos, Nigeria</span>
+        <h1 class="hero__title animate-fade-up animate-fade-up--delay-1">
+          Walk in the Fullness
+          <span>of Who You Are</span>
+          in Christ.
+        </h1>
+        <p class="hero__subtitle animate-fade-up animate-fade-up--delay-2">
+          At The Enlightenment Church, we illuminate every heart with the
+          transforming truth of God's Word. You were made for more — and we're
+          here to show you exactly what that means.
+        </p>
+        <div class="hero__actions animate-fade-up animate-fade-up--delay-3">
+          <a href="plan-visit.html" class="btn btn--primary btn--lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1V10"/></svg>
+            Plan Your Visit
+          </a>
+          <a href="sermons.html" class="btn btn--ghost btn--lg">
+            Watch Sermons
+          </a>
+        </div>
+      </div>
+
+      <!-- Service times bar -->
+      <div class="service-bar" style="position:absolute;bottom:0;left:0;right:0;">
+        <div class="service-bar__inner">
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Sunday Services:</strong> 8:00am &amp; 10:30am</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Wednesday:</strong> Bible Study 6:00pm</span>
+          </div>
+          <div class="service-bar__item">
+            <div class="service-bar__dot"></div>
+            <span><strong>Lagos, Nigeria</strong> — TEC Global</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <div class="hero__scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         WELCOME SECTION
+    ====================================================================== -->
+    <section class="section section--warm">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;">
+
+          <!-- Text -->
+          <div class="reveal">
+            <span class="section-header__label">Our Heart</span>
+            <h2 style="margin-bottom:24px;">Where Truth<br>Transforms Lives</h2>
+            <p class="text-lead" style="margin-bottom:24px;">
+              The Enlightenment Church exists to reveal the life-changing realities
+              of who you are <em>in Christ</em> — and to see every person walk in
+              the fullness of that truth.
+            </p>
+            <p style="margin-bottom:32px;">
+              Whether you're new to faith or have walked with God for years,
+              there is always more light to receive. Come hungry, come expectant —
+              the Word of God will not return void.
+            </p>
+            <div style="display:flex; gap:16px; flex-wrap:wrap;">
+              <a href="about.html" class="btn btn--primary">Our Story</a>
+              <a href="plan-visit.html" class="btn btn--secondary">Visit This Sunday</a>
+            </div>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal" style="position:relative; height:480px;">
+            <div style="
+              position:absolute; top:0; right:0;
+              width:80%; height:380px;
+              background:#0A0A0A;
+              border-radius:24px;
+              overflow:hidden;
+              box-shadow:0 20px 60px rgba(0,0,0,0.20);
+              border:1px solid rgba(212,160,23,0.15);
+            ">
+              <img src="images/church-2.webp" alt="TEC Global in worship" style="width:100%;height:100%;object-fit:cover;opacity:0.85;" />
+            </div>
+            <!-- Accent card -->
+            <div style="
+              position:absolute; bottom:0; left:0;
+              width:55%; height:200px;
+              background:linear-gradient(135deg, #D4A017 0%, #E07020 100%);
+              border-radius:20px;
+              display:flex; flex-direction:column;
+              align-items:flex-start; justify-content:flex-end;
+              padding:28px;
+              box-shadow:0 12px 40px rgba(212,160,23,0.35);
+            ">
+              <div style="font-family:'Playfair Display',serif; font-size:42px; font-weight:700; color:white; line-height:1;">#InChrist</div>
+              <div style="font-size:13px; color:rgba(255,255,255,0.90); margin-top:6px; font-weight:600; letter-spacing:0.05em;">REALITIES · TEC GLOBAL</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         ABOUT PASTOR
+    ====================================================================== -->
+    <section class="section" style="background:#000; padding:80px 0;">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;">
+
+          <!-- Pastor photo -->
+          <div class="reveal" style="position:relative;">
+            <div style="border-radius:24px; overflow:hidden; aspect-ratio:4/5; box-shadow:0 24px 64px rgba(0,0,0,0.6); border:1px solid rgba(212,160,23,0.20);">
+              <img src="images/pastor-1.jpg" alt="Pastor Joel Austin — The Enlightenment Church" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <div style="
+              position:absolute; bottom:-20px; right:-20px;
+              background:linear-gradient(135deg, #D4A017, #E07020);
+              border-radius:16px; padding:20px 28px;
+              box-shadow:0 12px 40px rgba(212,160,23,0.30);
+            ">
+              <div style="font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:white; line-height:1.3;">Pastor Joel Austin</div>
+              <div style="font-size:12px; color:rgba(255,255,255,0.85); margin-top:4px; letter-spacing:0.08em; text-transform:uppercase;">Senior Pastor · TEC Global</div>
+            </div>
+          </div>
+
+          <!-- Bio -->
+          <div class="reveal">
+            <span class="section-header__label" style="color:var(--color-accent);">Our Pastor</span>
+            <h2 style="color:white; margin-bottom:24px;">A Voice of Truth<br>for This Generation</h2>
+            <p style="color:rgba(255,255,255,0.70); font-size:17px; line-height:1.9; margin-bottom:16px;">
+              Pastor Joel Austin is a teacher of God's Word with a burning passion for helping believers
+              discover and live in the realities of what it means to be <em>in Christ</em>. His ministry
+              is marked by clarity, depth, and a profound revelation of grace.
+            </p>
+            <p style="color:rgba(255,255,255,0.70); font-size:17px; line-height:1.9; margin-bottom:32px;">
+              Through The Enlightenment Church, he has built a community of believers in Lagos
+              and beyond who are grounded in Scripture and ablaze with faith. His teaching on
+              <strong style="color:var(--color-accent);">In Christ Realities</strong> has transformed thousands of lives
+              across Nigeria and the globe.
+            </p>
+            <a href="about.html" class="btn btn--primary btn--lg">Read His Full Story</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         FIND HELP
+    ====================================================================== -->
+    <section class="section" style="background:linear-gradient(160deg, #050505 0%, #0A0A0A 100%); padding:80px 0;">
+      <div class="container">
+        <div style="text-align:center; max-width:640px; margin:0 auto 56px;">
+          <span class="section-header__label" style="color:var(--color-accent);">We're Here for You</span>
+          <h2 style="color:white; margin-bottom:20px;">How Are You Feeling Today?</h2>
+          <p style="color:rgba(255,255,255,0.60); font-size:18px; line-height:1.7;">
+            Whatever you're facing, God's Word has the answer. Find a message, a prayer,
+            and a community — for exactly where you are right now.
+          </p>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-bottom:48px;">
+
+          <a href="find-help.html#hurting" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background:linear-gradient(135deg,#1a0a0a 0%,#2d1010 100%);">
+              <img src="images/church-3.webp" alt="Comfort" style="width:100%;height:100%;object-fit:cover;opacity:0.35;" />
+            </div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">🔥</span>
+              <h3 class="help-card__title">When You're Hurting</h3>
+              <p class="help-card__sub">Find comfort and healing in God's Word</p>
+              <div class="help-card__arrow">
+                <svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </div>
+            </div>
+          </a>
+
+          <a href="find-help.html#overwhelmed" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background:linear-gradient(135deg,#0a0a1a 0%,#101028 100%);">
+              <img src="images/church-4.webp" alt="Peace" style="width:100%;height:100%;object-fit:cover;opacity:0.35;" />
+            </div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">✨</span>
+              <h3 class="help-card__title">When Your Mind Is Full</h3>
+              <p class="help-card__sub">Rest and peace for an anxious heart</p>
+              <div class="help-card__arrow">
+                <svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </div>
+            </div>
+          </a>
+
+          <a href="find-help.html#lost" class="help-card" style="text-decoration:none;">
+            <div class="help-card__bg" style="background:linear-gradient(135deg,#0a0a00 0%,#1a1800 100%);">
+              <img src="images/church-1.webp" alt="Direction" style="width:100%;height:100%;object-fit:cover;opacity:0.35;" />
+            </div>
+            <div class="help-card__overlay"></div>
+            <div class="help-card__content">
+              <span class="help-card__icon">🌅</span>
+              <h3 class="help-card__title">When You Feel Lost</h3>
+              <p class="help-card__sub">Direction and purpose for your journey</p>
+              <div class="help-card__arrow">
+                <svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div style="text-align:center;">
+          <a href="find-help.html" class="btn btn--white btn--lg">See All Categories</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         LATEST SERMONS
+    ====================================================================== -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">This Week's Message</span>
+          <h2 class="section-header__title">The Word That Lights<br>Your Path</h2>
+          <p class="section-header__desc">Every message is available online. Receive the truth of God's Word wherever you are.</p>
+        </div>
+
+        <div class="grid grid-3 reveal">
+
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="images/pastor-2.jpg" alt="In Christ Realities — Your Identity" style="width:100%;height:100%;object-fit:cover;" />
+              <div class="sermon-card__play">
+                <div class="sermon-card__play-btn" data-video="placeholder1" data-platform="youtube" style="cursor:pointer;">
+                  <svg width="18" height="18" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Series: In Christ Realities</div>
+              <div class="sermon-card__title">Your Identity in Christ</div>
+              <div class="sermon-card__speaker">Pastor Joel Austin · 2025</div>
+            </div>
+          </div>
+
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="images/pastor-3.jpg" alt="The New Creation — Who You Really Are" style="width:100%;height:100%;object-fit:cover;" />
+              <div class="sermon-card__play">
+                <div class="sermon-card__play-btn" data-video="placeholder2" data-platform="youtube" style="cursor:pointer;">
+                  <svg width="18" height="18" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Series: The New Creation</div>
+              <div class="sermon-card__title">Who You Really Are</div>
+              <div class="sermon-card__speaker">Pastor Joel Austin · 2025</div>
+            </div>
+          </div>
+
+          <div class="sermon-card">
+            <div class="sermon-card__thumb">
+              <img src="images/pastor-4.jpg" alt="Drawing from the Wells of Salvation" style="width:100%;height:100%;object-fit:cover;" />
+              <div class="sermon-card__play">
+                <div class="sermon-card__play-btn" data-video="placeholder3" data-platform="youtube" style="cursor:pointer;">
+                  <svg width="18" height="18" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+              </div>
+            </div>
+            <div class="sermon-card__body">
+              <div class="sermon-card__series">Isaiah 12:3 — Teaching</div>
+              <div class="sermon-card__title">Drawing from the Wells of Salvation</div>
+              <div class="sermon-card__speaker">Pastor Joel Austin · 2025</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:40px;" class="reveal">
+          <a href="sermons.html" class="btn btn--secondary btn--lg">View All Sermons</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         STATISTICS
+    ====================================================================== -->
+    <section class="section" style="background:#000; padding:64px 0;">
+      <div class="container">
+        <div class="grid grid-4">
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="1000" data-suffix="+">1000+</div>
+            <div class="stat-card__label">Lives Transformed</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="8" data-suffix="+">8+</div>
+            <div class="stat-card__label">Years of Ministry</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="10" data-suffix="">10</div>
+            <div class="stat-card__label">Active Ministries</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-card__number" data-count="50" data-suffix="+">50+</div>
+            <div class="stat-card__label">Sermon Messages</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         TESTIMONIALS
+    ====================================================================== -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="section-header section-header--center reveal">
+          <span class="section-header__label">Real Stories</span>
+          <h2 class="section-header__title">Lives Enlightened,<br>Families Restored</h2>
+        </div>
+        <div class="grid grid-3 reveal">
+
+          <div class="testimonial">
+            <p class="testimonial__text">
+              "Before TEC, I knew about God but didn't truly know who I was in Him. Pastor Joel's
+              teaching on In Christ Realities completely changed how I see myself and how I live."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar-placeholder">✦</div>
+              <div>
+                <div class="testimonial__name">Chioma O.</div>
+                <div class="testimonial__role">Member, Lagos</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial__text">
+              "I came broken and confused. The Word taught here brought me healing and clarity
+              I never thought possible. TEC Global is not just a church — it's a family."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar-placeholder">✦</div>
+              <div>
+                <div class="testimonial__name">Emeka &amp; Adaeze K.</div>
+                <div class="testimonial__role">Members, Lagos</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial__text">
+              "The depth of Scripture I've received at The Enlightenment Church has been
+              unmatched anywhere else. My faith is now rooted in truth, not just emotion."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar-placeholder">✦</div>
+              <div>
+                <div class="testimonial__name">Tunde A.</div>
+                <div class="testimonial__role">Member, Lagos</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         UPCOMING EVENTS
+    ====================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:48px;" class="reveal">
+          <div>
+            <span class="section-header__label">What's Coming</span>
+            <h2>Upcoming Events</h2>
+          </div>
+          <a href="events.html" class="btn btn--secondary">View All Events</a>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:16px;" class="reveal">
+
+          <div class="event-card" data-category="service">
+            <div class="event-card__date">
+              <div class="event-card__day">25</div>
+              <div class="event-card__month">May</div>
+            </div>
+            <div class="event-card__body">
+              <div class="event-card__title">Sunday Celebration Service</div>
+              <div class="event-card__meta">
+                <span>🕗 8:00am &amp; 10:30am</span>
+                <span>📍 Main Auditorium, Lagos</span>
+              </div>
+            </div>
+            <a href="plan-visit.html" class="btn btn--primary btn--sm" style="flex-shrink:0;align-self:center;">Plan Visit</a>
+          </div>
+
+          <div class="event-card" data-category="study">
+            <div class="event-card__date">
+              <div class="event-card__day">28</div>
+              <div class="event-card__month">May</div>
+            </div>
+            <div class="event-card__body">
+              <div class="event-card__title">Wednesday Bible Study — In Christ Realities</div>
+              <div class="event-card__meta">
+                <span>🕕 6:00pm – 8:00pm</span>
+                <span>📍 Fellowship Hall</span>
+              </div>
+            </div>
+            <a href="events.html" class="btn btn--secondary btn--sm" style="flex-shrink:0;align-self:center;">Details</a>
+          </div>
+
+          <div class="event-card" data-category="youth">
+            <div class="event-card__date">
+              <div class="event-card__day">7</div>
+              <div class="event-card__month">Jun</div>
+            </div>
+            <div class="event-card__body">
+              <div class="event-card__title">Youth Enlightenment Night</div>
+              <div class="event-card__meta">
+                <span>🕔 4:00pm – 7:00pm</span>
+                <span>📍 Youth Hall</span>
+              </div>
+            </div>
+            <a href="events.html" class="btn btn--secondary btn--sm" style="flex-shrink:0;align-self:center;">Register</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SCRIPTURE BANNER
+    ====================================================================== -->
+    <div class="scripture-banner">
+      <p class="scripture-banner__text">
+        "And you shall know the truth,<br>and the truth shall make you free."
+      </p>
+      <p class="scripture-banner__ref">John 8:32 · #InChristRealities</p>
+    </div>
+
+    <!-- =====================================================================
+         PLAN YOUR VISIT CTA
+    ====================================================================== -->
+    <section class="section section--warm">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;" class="reveal">
+          <div>
+            <span class="section-header__label">Your First Step</span>
+            <h2 style="margin-bottom:20px;">Ready to Visit<br>This Sunday?</h2>
+            <p style="font-size:18px; line-height:1.8; color:var(--color-muted); margin-bottom:32px;">
+              We would love to welcome you personally. Walking into a new church can feel
+              like a big step — we want to make it as easy and comfortable as possible for you.
+            </p>
+            <ul style="display:flex; flex-direction:column; gap:12px; margin-bottom:32px;">
+              <li style="display:flex; gap:12px; align-items:center; font-size:15px; color:var(--color-text-soft);">
+                <span style="width:24px;height:24px;background:var(--color-primary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                Warm, friendly welcome team ready for you
+              </li>
+              <li style="display:flex; gap:12px; align-items:center; font-size:15px; color:var(--color-text-soft);">
+                <span style="width:24px;height:24px;background:var(--color-primary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                Children's ministry available for all ages
+              </li>
+              <li style="display:flex; gap:12px; align-items:center; font-size:15px; color:var(--color-text-soft);">
+                <span style="width:24px;height:24px;background:var(--color-primary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                Powerful, Word-based worship and teaching
+              </li>
+              <li style="display:flex; gap:12px; align-items:center; font-size:15px; color:var(--color-text-soft);">
+                <span style="width:24px;height:24px;background:var(--color-primary);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--color-accent);font-size:12px;flex-shrink:0;">✓</span>
+                No pressure — just a genuine welcome
+              </li>
+            </ul>
+            <a href="plan-visit.html" class="btn btn--primary btn--lg">Plan My Visit</a>
+          </div>
+
+          <!-- Visit form -->
+          <div style="background:white; border-radius:24px; padding:40px; box-shadow:var(--shadow-lg); border:1px solid var(--color-border-light);">
+            <h3 style="margin-bottom:8px;">I'm Planning to Visit</h3>
+            <p style="font-size:14px; color:var(--color-muted); margin-bottom:28px;">Let us know you're coming and we'll reach out to welcome you.</p>
+            <form id="visit-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="visit-fname">First Name</label>
+                  <input type="text" id="visit-fname" class="form-input" placeholder="Emeka" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="visit-lname">Last Name</label>
+                  <input type="text" id="visit-lname" class="form-input" placeholder="Okafor" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="visit-email">Email Address</label>
+                <input type="email" id="visit-email" class="form-input" placeholder="you@email.com" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="visit-phone">Phone (optional)</label>
+                <input type="tel" id="visit-phone" class="form-input" placeholder="+234 800 000 0000" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="visit-date">Planned Visit Date</label>
+                <select id="visit-date" class="form-select">
+                  <option value="">Choose a Sunday</option>
+                  <option>May 25</option>
+                  <option>June 1</option>
+                  <option>June 8</option>
+                  <option>June 15</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full btn--lg">
+                I'm Coming! Send My Info →
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         GIVE TEASER
+    ====================================================================== -->
+    <section class="section" style="background:#000; padding:80px 0; text-align:center;">
+      <div class="container">
+        <div class="reveal" style="max-width:560px; margin:0 auto;">
+          <span class="section-header__label" style="color:var(--color-accent);">Generosity</span>
+          <h2 style="color:white; margin-bottom:20px;">Your Giving Ignites Lives</h2>
+          <p style="color:rgba(255,255,255,0.60); font-size:18px; line-height:1.7; margin-bottom:36px;">
+            Every seed sown into TEC Global goes directly toward spreading
+            the light of God's Word and transforming lives in Lagos and beyond.
+          </p>
+          <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+            <a href="give.html" class="btn btn--primary btn--lg">Give Online</a>
+            <a href="give.html#why" class="btn btn--ghost btn--lg">See the Impact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="images/logo.jpg" alt="TEC Global" class="footer__logo-img" />
+            <span class="footer__logo-name">The Enlightenment Church</span>
+          </a>
+          <p class="footer__tagline">Where the light of God's Word transforms every life. Lagos, Nigeria — TEC Global.</p>
+          <div class="footer__service-times">
+            <div class="footer__service-time"><span>Sunday (1st Service)</span><span>8:00am</span></div>
+            <div class="footer__service-time"><span>Sunday (2nd Service)</span><span>10:30am</span></div>
+            <div class="footer__service-time"><span>Wednesday Bible Study</span><span>6:00pm</span></div>
+          </div>
+          <div class="footer__socials mt-6">
+            <a href="#" class="footer__social" aria-label="Facebook">
+              <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="footer__social" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"/></svg>
+            </a>
+            <a href="#" class="footer__social" aria-label="YouTube">
+              <svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Explore</h4>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="beliefs.html" class="footer__link">Our Beliefs</a></li>
+            <li><a href="ministries.html" class="footer__link">Ministries</a></li>
+            <li><a href="sermons.html" class="footer__link">Sermons</a></li>
+            <li><a href="find-help.html" class="footer__link">Find Help</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Connect</h4>
+          <ul class="footer__links">
+            <li><a href="plan-visit.html" class="footer__link">Plan a Visit</a></li>
+            <li><a href="give.html" class="footer__link">Give Online</a></li>
+            <li><a href="contact.html#prayer" class="footer__link">Prayer Request</a></li>
+            <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Find Us</h4>
+          <ul class="footer__links">
+            <li><span class="footer__link" style="cursor:default;color:rgba(255,255,255,0.45);">Lagos, Nigeria<br>TEC Global</span></li>
+            <li style="margin-top:8px;"><a href="tel:+2348000000000" class="footer__link">+234 800 000 0000</a></li>
+            <li><a href="mailto:info@tecglobal.org" class="footer__link">info@tecglobal.org</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 The Enlightenment Church — TEC Global. All rights reserved.</p>
+        <div style="display:flex;gap:16px;">
+          <span style="color:var(--color-accent);font-size:12px; letter-spacing:0.08em;">#TECGlobal &nbsp;#TheEnlightenmentChurch &nbsp;#InChristRealities</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/2348000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
